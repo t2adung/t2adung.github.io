@@ -1,88 +1,939 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
-  <title>Tran Thi Ai Dung - CV</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f2f2; }
-    .container { max-width: 900px; margin: 0 auto; background: #fff; padding: 30px; }
-    h1 { font-size: 32px; margin-bottom: 5px; }
-    h2 { color: #555; margin-top: 40px; }
-    p, li { font-size: 16px; line-height: 1.5; }
-    ul { padding-left: 20px; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy Tran | Senior Full-Stack SaaS Developer, AI & Data Engineer</title>
+  <meta name="description" content="Portfolio of Joy Tran (t2adung) - Senior Full-Stack SaaS Developer, AI Integration & Automation Specialist, and Certified Data & BI Engineer. Building production-ready software for startups and global enterprises.">
+  <meta name="keywords" content="Joy Tran, t2adung, Full-Stack Developer, SaaS, AI Integration, RAG, n8n, Automation, Power BI, Python, Laravel, TypeScript, AWS Certified">
+  <meta name="author" content="Joy Tran">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://t2adung.github.io/">
+  <meta property="og:title" content="Joy Tran | Senior Full-Stack SaaS & AI Solutions Engineer">
+  <meta property="og:description" content="Production-ready SaaS applications, enterprise AI integrations, workflow automation, and BI solutions.">
+
+  <!-- Favicon / Fonts -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Joy Tran",
+    "alternateName": "t2adung",
+    "url": "https://t2adung.github.io",
+    "jobTitle": "Full-Stack SaaS & AI Solutions Engineer",
+    "email": "t2adung@gmail.com",
+    "sameAs": [
+      "https://github.com/t2adung",
+      "https://www.linkedin.com/in/t2adung",
+      "https://www.upwork.com/freelancers/~01864e5cfb730b1803"
+    ]
+  }
+  </script>
 </head>
-<body>
-  <div class="container">
-    <h1>Tran Thi Ai Dung</h1>
-    <p><strong>Backend Developer / Full-Stack Developer</strong></p>
-
-    <h2>Profile</h2>
-    <p>I am seeking a job as a Backend Developer or full-stack developer for a good software company.</p>
-
-    <h2>Personal Statement</h2>
-    <ul>
-      <li>Over 10 years of professional experience as a web developer</li>
-      <li>Possess good time management and organizational skills</li>
-      <li>Career-oriented, hard-working, and able to handle multiple tasks</li>
-      <li>Can operate effectively in a team and individually</li>
-      <li>Willing to learn and work with new technology</li>
-    </ul>
-
-    <h2>Education</h2>
-    <p><strong>Bachelor of Math & Computer Science</strong><br>University of Natural Sciences (2003 – 2007)</p>
-    <p><strong>Certification of Web Developer</strong><br>Lotus University’s Training Center (2007)</p>
-
-    <h2>Experience</h2>
-    <p><strong>Senior Developer</strong> – Smarnet Vietnam (12/2025 – present)</p>
-    <ul>
-      <li>Digital book solutions: spec analysis, database design, programming, testing</li>
-      <li>Resolve user behavior and device compatibility issues</li>
-    </ul>
-
-    <p><strong>Senior Developer</strong> – Grevo (10/2017 – 10/2024)</p>
-    <ul>
-      <li>Game development, issue resolution, team collaboration, and code review</li>
-    </ul>
-
-    <p><strong>Senior Developer</strong> – Sunrise Software Solutions (03/2015 – 09/2017)</p>
-    <ul>
-      <li>Server-side web application optimization and AWS integration</li>
-    </ul>
-
-    <p><strong>Developer</strong> – Sunrise Software Solutions (03/2013 – 02/2015)</p>
-    <ul>
-      <li>PHP & MySQL applications, project collaboration</li>
-    </ul>
-
-    <h2>Languages</h2>
-    <ul>
-      <li>Vietnamese – Native</li>
-      <li>English – Intermediate</li>
-    </ul>
-
-    <h2>Skills</h2>
-    <ul>
-      <li>Languages: PHP, NodeJS, JavaScript, HTML, CSS</li>
-      <li>Frameworks: Symfony, Laravel, CodeIgniter, VueJS, AngularJS</li>
-      <li>Databases: MySQL, MongoDB</li>
-      <li>CMS: WordPress, Joomla</li>
-      <li>Tools: Git, Jira, VSC, Trello</li>
-      <li>OS: Linux, Windows, MacOS</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p><strong>Mobile:</strong> 0934 030 000<br>
-    <strong>Email:</strong> sample@gmail.com<br>
-    <strong>LinkedIn:</strong> mylink</p>
-
-    <h2>Licenses / Certificates</h2>
-    <ul>
-      <li>AWS Cloud Practitioner – Basic</li>
-    </ul>
-
-    <h2>Interests</h2>
-    <p>Reading, Travelling, Yoga</p>
+<body class="bg-[#f8fafc] text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
+  <!-- Soft Ambient Glows & Grid Pattern -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[850px] h-[550px] bg-gradient-to-br from-sky-200/40 via-indigo-100/30 to-transparent blur-[120px] rounded-full"></div>
+    <div class="absolute top-[35%] -right-32 w-[600px] h-[600px] bg-gradient-to-tl from-emerald-100/40 via-teal-100/30 to-transparent blur-[140px] rounded-full"></div>
+    <div class="absolute top-[70%] -left-32 w-[600px] h-[600px] bg-gradient-to-tr from-violet-100/40 to-transparent blur-[140px] rounded-full"></div>
+    <div class="absolute inset-0 bg-grid-pattern opacity-35"></div>
   </div>
+
+  <!-- Navigation Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 navbar-glass" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="group flex items-center gap-3 text-lg font-bold tracking-tight text-slate-900">
+        <span class="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-500 via-indigo-600 to-violet-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform duration-300 font-bold">
+          JT
+        </span>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-slate-900 font-extrabold">Joy Tran</span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          </div>
+          <span class="text-xs font-mono text-sky-600 font-semibold block">@t2adung</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-1 bg-white/90 p-1.5 rounded-full border border-slate-200 shadow-sm backdrop-blur-md">
+        <a href="#services" class="nav-link px-4 py-2 text-sm font-medium text-slate-600 hover:text-sky-600 rounded-full transition-all" data-i18n="nav_services">Services</a>
+        <a href="#projects" class="nav-link px-4 py-2 text-sm font-medium text-slate-600 hover:text-sky-600 rounded-full transition-all" data-i18n="nav_projects">Case Studies</a>
+        <a href="#skills" class="nav-link px-4 py-2 text-sm font-medium text-slate-600 hover:text-sky-600 rounded-full transition-all" data-i18n="nav_skills">Tech Stack</a>
+        <a href="#certifications" class="nav-link px-4 py-2 text-sm font-medium text-slate-600 hover:text-sky-600 rounded-full transition-all" data-i18n="nav_certifications">Certifications</a>
+        <a href="#estimator" class="nav-link px-4 py-2 text-sm font-medium text-slate-600 hover:text-sky-600 rounded-full transition-all" data-i18n="nav_estimator">Estimator</a>
+      </nav>
+
+      <!-- Language Switcher & CTA Buttons -->
+      <div class="hidden md:flex items-center gap-3">
+        <!-- Language Switcher -->
+        <div class="flex items-center bg-white p-1 rounded-xl border border-slate-200 shadow-sm" id="langSwitcher">
+          <button class="lang-btn active px-2.5 py-1 text-xs font-bold rounded-lg transition-all" data-lang="en">
+            🇬🇧 EN
+          </button>
+          <button class="lang-btn px-2.5 py-1 text-xs font-semibold text-slate-600 hover:text-sky-600 rounded-lg transition-all" data-lang="vi">
+            🇻🇳 VI
+          </button>
+        </div>
+
+        <a href="https://www.upwork.com/freelancers/~01864e5cfb730b1803" target="_blank" rel="noopener noreferrer" class="btn-secondary px-3.5 py-2 rounded-xl text-sm font-semibold flex items-center gap-2 text-slate-700 bg-white border border-slate-200 hover:border-emerald-500 hover:text-emerald-700 shadow-sm transition-all">
+          <svg class="w-4 h-4 text-emerald-600" viewBox="0 0 24 24" fill="currentColor"><path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-3.715 0-6.431 2.671-7.184 6.532-1.331-1.92-2.384-4.791-2.907-7.55H4.118v9.98c0 2.508 2.04 4.549 4.548 4.549 2.51 0 4.55-2.041 4.55-4.549V9.75c.67.904 1.545 1.761 2.613 2.456l-2.04 9.794h4.417l1.372-6.586c1.1.583 2.316.907 3.583.907 3.992 0 7.241-3.249 7.241-7.241 0-3.993-3.249-7.242-7.241-7.242z"/></svg>
+          <span data-i18n="btn_upwork">Upwork Profile</span>
+        </a>
+        <a href="#contact" class="btn-primary px-5 py-2.5 rounded-xl text-sm font-semibold text-white bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-500 hover:to-indigo-500 shadow-md shadow-sky-500/20 transition-all" data-i18n="btn_contact">
+          Contact Me
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button & Lang Switcher -->
+      <div class="flex md:hidden items-center gap-2">
+        <div class="flex items-center bg-white p-0.5 rounded-lg border border-slate-200" id="mobileLangSwitcher">
+          <button class="lang-btn active px-2 py-0.5 text-[11px] font-bold rounded" data-lang="en">EN</button>
+          <button class="lang-btn px-2 py-0.5 text-[11px] font-semibold text-slate-600 rounded" data-lang="vi">VI</button>
+        </div>
+        <button id="mobileMenuBtn" class="p-2 text-slate-600 hover:text-slate-900 rounded-lg focus:outline-none" aria-label="Toggle menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div id="mobileMenu" class="hidden md:hidden px-4 pt-2 pb-6 bg-white/95 border-b border-slate-200 shadow-lg backdrop-blur-xl">
+      <div class="flex flex-col gap-2">
+        <a href="#services" class="mobile-nav-link px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-sky-600 hover:bg-sky-50 rounded-lg" data-i18n="nav_services">Services</a>
+        <a href="#projects" class="mobile-nav-link px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-sky-600 hover:bg-sky-50 rounded-lg" data-i18n="nav_projects">Case Studies</a>
+        <a href="#skills" class="mobile-nav-link px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-sky-600 hover:bg-sky-50 rounded-lg" data-i18n="nav_skills">Tech Stack</a>
+        <a href="#certifications" class="mobile-nav-link px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-sky-600 hover:bg-sky-50 rounded-lg" data-i18n="nav_certifications">Certifications</a>
+        <a href="#estimator" class="mobile-nav-link px-4 py-2.5 text-sm font-medium text-slate-700 hover:text-sky-600 hover:bg-sky-50 rounded-lg" data-i18n="nav_estimator">Project Estimator</a>
+        <div class="pt-4 flex flex-col gap-2">
+          <a href="https://www.upwork.com/freelancers/~01864e5cfb730b1803" target="_blank" rel="noopener noreferrer" class="btn-secondary w-full py-2.5 rounded-xl text-sm font-semibold text-center text-slate-700 border border-slate-200 bg-white" data-i18n="btn_upwork">
+            View Upwork Profile
+          </a>
+          <a href="#contact" class="btn-primary w-full py-2.5 rounded-xl text-sm font-semibold text-center text-white bg-gradient-to-r from-sky-600 to-indigo-600" data-i18n="btn_contact">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10 pt-28 pb-20">
+    <!-- Hero Section -->
+    <section id="hero" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Hero Left / Bio -->
+        <div class="lg:col-span-7 space-y-8">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-sky-200 text-sky-800 text-xs font-mono font-semibold tracking-wide shadow-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+            <span data-i18n="hero_badge">AVAILABLE FOR FREELANCE &amp; CONTRACTS</span>
+          </div>
+
+          <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]" id="heroHeading">
+            Engineering <span class="text-gradient">Production SaaS</span>, AI Automation &amp; Data Solutions.
+          </h1>
+
+          <p class="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-2xl font-normal" data-i18n="hero_bio">
+            Hi, I'm <strong class="text-slate-900 font-bold">Joy Tran</strong>. I help founders, startups, and enterprise teams turn complex business requirements into fast, maintainable SaaS platforms, practical AI integrations, and reliable data pipelines.
+          </p>
+
+          <!-- Highlights Pills -->
+          <div class="flex flex-wrap gap-2 pt-1">
+            <span class="badge-pill font-mono text-xs" data-i18n="pill_saas">🚀 Full-Stack SaaS (Laravel / Vue / React)</span>
+            <span class="badge-pill font-mono text-xs" data-i18n="pill_ai">🤖 RAG &amp; LLM Agent Workflows</span>
+            <span class="badge-pill font-mono text-xs" data-i18n="pill_auto">⚡ n8n &amp; API Integrations</span>
+            <span class="badge-pill font-mono text-xs" data-i18n="pill_bi">📊 Power BI &amp; Star-Schema SQL</span>
+            <span class="badge-pill font-mono text-xs" data-i18n="pill_cloud">☁️ AWS Cloud &amp; Docker CI/CD</span>
+          </div>
+
+          <!-- Hero Actions -->
+          <div class="flex flex-wrap items-center gap-4 pt-4">
+            <a href="#projects" class="btn-primary px-7 py-3.5 rounded-xl font-bold text-white bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-500 hover:to-indigo-500 shadow-lg shadow-sky-500/25 flex items-center gap-2 group transition-all">
+              <span data-i18n="hero_btn_explore">Explore Case Studies</span>
+              <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+            
+            <a href="#estimator" class="btn-secondary px-6 py-3.5 rounded-xl font-semibold text-slate-700 border border-slate-300 bg-white hover:bg-sky-50 hover:text-sky-700 hover:border-sky-300 shadow-sm transition-all flex items-center gap-2">
+              <svg class="w-4 h-4 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+              <span data-i18n="hero_btn_estimate">Estimate Project</span>
+            </a>
+
+            <button id="copyEmailBtnHero" class="px-4 py-3.5 rounded-xl font-mono text-xs text-slate-700 hover:text-sky-700 border border-slate-200 bg-white hover:border-sky-300 shadow-sm flex items-center gap-2 transition-all" title="Copy email address">
+              <svg class="w-4 h-4 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+              <span>t2adung@gmail.com</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Right / Metric Cards & Light Code Card -->
+        <div class="lg:col-span-5 space-y-4">
+          <!-- Light IDE Code Showcase Card -->
+          <div class="rounded-2xl p-5 border border-slate-200 bg-white shadow-xl relative overflow-hidden text-slate-800">
+            <div class="flex items-center justify-between pb-3.5 border-b border-slate-100 mb-4 font-mono text-xs text-slate-500">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-red-400 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-amber-400 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-emerald-400 inline-block"></span>
+              </div>
+              <span class="text-slate-500 font-medium">engineer-profile.ts</span>
+              <span class="text-sky-600 font-bold">v2.4.0</span>
+            </div>
+
+            <pre class="font-mono text-xs sm:text-sm text-slate-700 leading-relaxed overflow-x-auto bg-slate-50/80 p-3.5 rounded-xl border border-slate-100"><code><span class="text-indigo-600 font-bold">const</span> <span class="text-sky-600 font-bold">freelancer</span> = {
+  <span class="text-slate-500">name:</span> <span class="text-emerald-700 font-semibold">"Joy Tran"</span>,
+  <span class="text-slate-500">handle:</span> <span class="text-emerald-700 font-semibold">"@t2adung"</span>,
+  <span class="text-slate-500">status:</span> <span class="text-emerald-600 font-bold" id="codeStatus">"Open for Projects"</span>,
+  <span class="text-slate-500">deliveryRate:</span> <span class="text-amber-600 font-bold" id="codeDelivery">"100% On-Time"</span>,
+  <span class="text-slate-500">stack:</span> [
+    <span class="text-sky-700">"Laravel"</span>, <span class="text-sky-700">"Vue/React"</span>, <span class="text-sky-700">"Python"</span>,
+    <span class="text-sky-700">"LLM / RAG"</span>, <span class="text-sky-700">"n8n"</span>, <span class="text-sky-700">"Power BI"</span>
+  ],
+  <span class="text-slate-500">certifications:</span> [
+    <span class="text-violet-700">"AWS Certified Developer"</span>,
+    <span class="text-violet-700">"AWS AI Practitioner"</span>,
+    <span class="text-violet-700">"Power BI Data Analyst"</span>
+  ]
+};</code></pre>
+          </div>
+
+          <!-- Quick Stats Grid -->
+          <div class="grid grid-cols-3 gap-3">
+            <div class="glass-card rounded-xl p-4 border border-slate-200 bg-white text-center shadow-sm">
+              <div class="text-2xl sm:text-3xl font-extrabold text-sky-600 font-mono">5+</div>
+              <div class="text-xs text-slate-500 font-medium mt-1" data-i18n="stat_cases">Flagship Case Studies</div>
+            </div>
+            <div class="glass-card rounded-xl p-4 border border-slate-200 bg-white text-center shadow-sm">
+              <div class="text-2xl sm:text-3xl font-extrabold text-emerald-600 font-mono">3x</div>
+              <div class="text-xs text-slate-500 font-medium mt-1" data-i18n="stat_certs">Industry Certs</div>
+            </div>
+            <div class="glass-card rounded-xl p-4 border border-slate-200 bg-white text-center shadow-sm">
+              <div class="text-2xl sm:text-3xl font-extrabold text-indigo-600 font-mono">100%</div>
+              <div class="text-xs text-slate-500 font-medium mt-1" data-i18n="stat_ready">Production Ready</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Value Proposition Section -->
+    <section id="services" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <h2 class="text-xs font-mono uppercase tracking-widest text-sky-600 font-bold" data-i18n="services_subtitle">Freelance &amp; Engineering Services</h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-slate-900" data-i18n="services_title">
+          Practical Solutions That Move The Needle
+        </p>
+        <p class="text-slate-600 text-base sm:text-lg" data-i18n="services_desc">
+          Whether you need a new SaaS product launched from scratch, AI automation plugged into your existing workflow, or executive BI dashboards built from raw databases.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Service 1: Build -->
+        <div class="service-card glass-card rounded-2xl p-6 border border-slate-200 bg-white hover:border-sky-500 transition-all group shadow-sm">
+          <div class="w-12 h-12 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2" data-i18n="svc_build_title">1. Build</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4" data-i18n="svc_build_desc">
+            Develop complete SaaS MVPs, internal admin portals, interactive dashboards, and scalable multi-tenant web applications from scratch.
+          </p>
+          <ul class="text-xs font-mono text-slate-500 space-y-1.5">
+            <li class="flex items-center gap-2"><span class="text-sky-600 font-bold">✔</span> <span data-i18n="svc_build_f1">Full-Stack SaaS &amp; APIs</span></li>
+            <li class="flex items-center gap-2"><span class="text-sky-600 font-bold">✔</span> <span data-i18n="svc_build_f2">Auth, Multi-Tenancy &amp; Billing</span></li>
+            <li class="flex items-center gap-2"><span class="text-sky-600 font-bold">✔</span> <span data-i18n="svc_build_f3">Docker &amp; Cloud Deployment</span></li>
+          </ul>
+        </div>
+
+        <!-- Service 2: Integrate -->
+        <div class="service-card glass-card rounded-2xl p-6 border border-slate-200 bg-white hover:border-indigo-500 transition-all group shadow-sm">
+          <div class="w-12 h-12 rounded-xl bg-indigo-50 border border-indigo-100 text-indigo-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2" data-i18n="svc_integrate_title">2. Integrate</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4" data-i18n="svc_integrate_desc">
+            Embed LLM intelligence, RAG document search, third-party APIs, vector databases, and payment processors into existing codebases.
+          </p>
+          <ul class="text-xs font-mono text-slate-500 space-y-1.5">
+            <li class="flex items-center gap-2"><span class="text-indigo-600 font-bold">✔</span> <span data-i18n="svc_integrate_f1">LLM APIs (OpenAI / Claude / Gemini)</span></li>
+            <li class="flex items-center gap-2"><span class="text-indigo-600 font-bold">✔</span> <span data-i18n="svc_integrate_f2">RAG &amp; Vector Embeddings</span></li>
+            <li class="flex items-center gap-2"><span class="text-indigo-600 font-bold">✔</span> <span data-i18n="svc_integrate_f3">Payment &amp; OAuth Gateways</span></li>
+          </ul>
+        </div>
+
+        <!-- Service 3: Automate -->
+        <div class="service-card glass-card rounded-2xl p-6 border border-slate-200 bg-white hover:border-emerald-500 transition-all group shadow-sm">
+          <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 text-emerald-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2" data-i18n="svc_automate_title">3. Automate</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4" data-i18n="svc_automate_desc">
+            Replace tedious manual operations with automated pipelines using n8n, Python scripts, webhooks, and deterministic error handling.
+          </p>
+          <ul class="text-xs font-mono text-slate-500 space-y-1.5">
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✔</span> <span data-i18n="svc_automate_f1">n8n &amp; Custom Webhooks</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✔</span> <span data-i18n="svc_automate_f2">Structured Document Extraction</span></li>
+            <li class="flex items-center gap-2"><span class="text-emerald-600 font-bold">✔</span> <span data-i18n="svc_automate_f3">Automated ETL &amp; Syncing</span></li>
+          </ul>
+        </div>
+
+        <!-- Service 4: Modernize -->
+        <div class="service-card glass-card rounded-2xl p-6 border border-slate-200 bg-white hover:border-amber-500 transition-all group shadow-sm">
+          <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-100 text-amber-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mb-2" data-i18n="svc_modernize_title">4. Modernize</h3>
+          <p class="text-sm text-slate-600 leading-relaxed mb-4" data-i18n="svc_modernize_desc">
+            Refactor legacy systems, optimize slow SQL queries, build executive Power BI models, and implement automated CI/CD testing.
+          </p>
+          <ul class="text-xs font-mono text-slate-500 space-y-1.5">
+            <li class="flex items-center gap-2"><span class="text-amber-600 font-bold">✔</span> <span data-i18n="svc_modernize_f1">SQL &amp; Power BI Optimization</span></li>
+            <li class="flex items-center gap-2"><span class="text-amber-600 font-bold">✔</span> <span data-i18n="svc_modernize_f2">Architecture &amp; Security Audits</span></li>
+            <li class="flex items-center gap-2"><span class="text-amber-600 font-bold">✔</span> <span data-i18n="svc_modernize_f3">CI/CD &amp; Testing Pipelines</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Case Studies Section -->
+    <section id="projects" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div>
+          <h2 class="text-xs font-mono uppercase tracking-widest text-sky-600 font-bold mb-2" data-i18n="projects_subtitle">Flagship Case Studies</h2>
+          <p class="text-3xl sm:text-4xl font-extrabold text-slate-900" data-i18n="projects_title">Engineered For Production</p>
+          <p class="text-slate-600 mt-2 max-w-xl" data-i18n="projects_desc">
+            Each project is structured with architectural rigor: Problem → Solution → Architecture → Tech Stack → Outcomes.
+          </p>
+        </div>
+
+        <!-- Filter Tabs (Always fit on 1 row) -->
+        <div class="flex flex-nowrap items-center gap-1 bg-white p-1 rounded-xl border border-slate-200 shadow-sm shrink-0 overflow-x-auto" id="projectFilters">
+          <button class="filter-btn active px-3 py-1.5 text-xs font-bold rounded-lg transition-all whitespace-nowrap" data-filter="all" data-i18n="filter_all">All (5)</button>
+          <button class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-sky-600 transition-all whitespace-nowrap" data-filter="saas" data-i18n="filter_saas">SaaS &amp; Full-Stack</button>
+          <button class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-sky-600 transition-all whitespace-nowrap" data-filter="ai" data-i18n="filter_ai">AI &amp; Automation</button>
+          <button class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-sky-600 transition-all whitespace-nowrap" data-filter="data" data-i18n="filter_data">Data &amp; BI</button>
+        </div>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projectsGrid">
+        <!-- Project 1: AI-Powered SaaS -->
+        <article class="project-card glass-card rounded-2xl border border-slate-200 bg-white overflow-hidden hover:border-sky-500 transition-all flex flex-col group shadow-sm" data-category="saas">
+          <div class="p-6 pb-4 border-b border-slate-100 bg-slate-50/50">
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-bold bg-sky-100 text-sky-800 border border-sky-200" data-i18n="tag_saas">Full-Stack SaaS</span>
+              <span class="text-xs font-mono text-slate-500 font-medium">Case Study 01</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-sky-600 transition-colors" data-i18n="p1_title">AI-Powered SaaS Application</h3>
+            <p class="text-xs font-mono text-slate-500 mt-1" data-i18n="p1_sub">Multi-Tenancy · Subscription Billing · AI Features</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="p1_desc">
+              Modular SaaS architecture separating core business logic from decoupled AI services. Features team workspaces, Stripe billing, Redis background workers, and quota enforcement.
+            </p>
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Vue 3</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+              <button class="open-case-modal w-full py-2.5 px-4 rounded-xl text-xs font-bold text-sky-700 bg-sky-50 hover:bg-sky-600 hover:text-white border border-sky-200/80 transition-all flex items-center justify-center gap-2" data-project="ai-powered-saas">
+                <span data-i18n="btn_view_case">View Architecture &amp; Case Study</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: AI Business Automation -->
+        <article class="project-card glass-card rounded-2xl border border-slate-200 bg-white overflow-hidden hover:border-indigo-500 transition-all flex flex-col group shadow-sm" data-category="ai">
+          <div class="p-6 pb-4 border-b border-slate-100 bg-slate-50/50">
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-bold bg-indigo-100 text-indigo-800 border border-indigo-200" data-i18n="tag_ai">AI &amp; Automation</span>
+              <span class="text-xs font-mono text-slate-500 font-medium">Case Study 02</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-indigo-600 transition-colors" data-i18n="p2_title">AI Business Workflow Automation</h3>
+            <p class="text-xs font-mono text-slate-500 mt-1" data-i18n="p2_sub">n8n Orchestration · Document Extraction · Webhooks</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="p2_desc">
+              Automates repetitive business operations by using LLMs for schema-validated JSON extraction and deterministic rule engines for zero-hallucination routing into CRMs and databases.
+            </p>
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="tech-tag">n8n</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenAI / Gemini</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Webhooks</span>
+              </div>
+              <button class="open-case-modal w-full py-2.5 px-4 rounded-xl text-xs font-bold text-indigo-700 bg-indigo-50 hover:bg-indigo-600 hover:text-white border border-indigo-200/80 transition-all flex items-center justify-center gap-2" data-project="ai-business-automation">
+                <span data-i18n="btn_view_case">View Architecture &amp; Case Study</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: AI Knowledge Assistant -->
+        <article class="project-card glass-card rounded-2xl border border-slate-200 bg-white overflow-hidden hover:border-emerald-500 transition-all flex flex-col group shadow-sm" data-category="ai">
+          <div class="p-6 pb-4 border-b border-slate-100 bg-slate-50/50">
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-bold bg-emerald-100 text-emerald-800 border border-emerald-200" data-i18n="tag_rag">RAG &amp; AI Search</span>
+              <span class="text-xs font-mono text-slate-500 font-medium">Case Study 03</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-emerald-600 transition-colors" data-i18n="p3_title">Enterprise AI Knowledge Assistant</h3>
+            <p class="text-xs font-mono text-slate-500 mt-1" data-i18n="p3_sub">RAG Engine · Vector Search · Source Citations</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="p3_desc">
+              Retrieval-Augmented Generation platform allowing organizations to query internal PDFs, policies, and manuals with verifiable source citations and role-based access control.
+            </p>
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">pgvector</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Embeddings</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+              <button class="open-case-modal w-full py-2.5 px-4 rounded-xl text-xs font-bold text-emerald-700 bg-emerald-50 hover:bg-emerald-600 hover:text-white border border-emerald-200/80 transition-all flex items-center justify-center gap-2" data-project="ai-knowledge-assistant">
+                <span data-i18n="btn_view_case">View Architecture &amp; Case Study</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Business Intelligence Dashboard -->
+        <article class="project-card glass-card rounded-2xl border border-slate-200 bg-white overflow-hidden hover:border-amber-500 transition-all flex flex-col group shadow-sm" data-category="data">
+          <div class="p-6 pb-4 border-b border-slate-100 bg-slate-50/50">
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-bold bg-amber-100 text-amber-800 border border-amber-200" data-i18n="tag_bi">Data &amp; BI</span>
+              <span class="text-xs font-mono text-slate-500 font-medium">Case Study 04</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-amber-600 transition-colors" data-i18n="p4_title">Executive BI &amp; KPI Dashboard</h3>
+            <p class="text-xs font-mono text-slate-500 mt-1" data-i18n="p4_sub">Power BI · Star Schema · Advanced DAX Modeling</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="p4_desc">
+              Transforms raw, disconnected transaction data into clean dimensional models and real-time executive dashboards for revenue, cohort retention, and operational KPIs.
+            </p>
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">DAX</span>
+                <span class="tech-tag">Power Query</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <button class="open-case-modal w-full py-2.5 px-4 rounded-xl text-xs font-bold text-amber-700 bg-amber-50 hover:bg-amber-600 hover:text-white border border-amber-200/80 transition-all flex items-center justify-center gap-2" data-project="business-intelligence-dashboard">
+                <span data-i18n="btn_view_case">View Architecture &amp; Case Study</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Data Automation Pipeline -->
+        <article class="project-card glass-card rounded-2xl border border-slate-200 bg-white overflow-hidden hover:border-sky-500 transition-all flex flex-col group shadow-sm" data-category="data">
+          <div class="p-6 pb-4 border-b border-slate-100 bg-slate-50/50">
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-mono font-bold bg-sky-100 text-sky-800 border border-sky-200" data-i18n="tag_data">Data Engineering</span>
+              <span class="text-xs font-mono text-slate-500 font-medium">Case Study 05</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-sky-600 transition-colors" data-i18n="p5_title">Automated Data ETL Pipeline</h3>
+            <p class="text-xs font-mono text-slate-500 mt-1" data-i18n="p5_sub">Python · Schema Validation · PostgreSQL Sync</p>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+            <p class="text-sm text-slate-600 leading-relaxed" data-i18n="p5_desc">
+              Fault-tolerant data pipeline extracting from rate-limited external APIs, validating schema types, applying idempotent upserts, and preparing clean analytical tables for downstream BI.
+            </p>
+            <div class="space-y-3">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Pydantic</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">AWS</span>
+              </div>
+              <button class="open-case-modal w-full py-2.5 px-4 rounded-xl text-xs font-bold text-sky-700 bg-sky-50 hover:bg-sky-600 hover:text-white border border-sky-200/80 transition-all flex items-center justify-center gap-2" data-project="data-automation-pipeline">
+                <span data-i18n="btn_view_case">View Architecture &amp; Case Study</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Engineering Principles / Why Hire Me -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-5 space-y-6">
+          <h2 class="text-xs font-mono uppercase tracking-widest text-emerald-600 font-bold" data-i18n="eng_subtitle">Engineering Standard</h2>
+          <p class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight" data-i18n="eng_title">
+            How I Build Software That Lasts
+          </p>
+          <p class="text-slate-600 text-base leading-relaxed" data-i18n="eng_desc">
+            I don't just write code that "works on my machine." I build production-grade software with business outcomes, maintainability, clean architecture, and security baked in from Day 1.
+          </p>
+          <div class="pt-2">
+            <a href="https://www.upwork.com/freelancers/~01864e5cfb730b1803" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm font-bold text-sky-600 hover:text-sky-700">
+              <span data-i18n="eng_reviews">View client reviews on Upwork</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="glass-card p-5 rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div class="text-sky-600 font-mono text-xs font-bold mb-1" data-i18n="eng_card1_num">01 / ARCHITECTURE</div>
+            <h4 class="text-slate-900 font-bold mb-1" data-i18n="eng_card1_title">Business-First Engineering</h4>
+            <p class="text-xs text-slate-600 leading-relaxed" data-i18n="eng_card1_desc">Choosing tech stacks that solve real business problems without unnecessary overhead or vendor lock-in.</p>
+          </div>
+          <div class="glass-card p-5 rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div class="text-indigo-600 font-mono text-xs font-bold mb-1" data-i18n="eng_card2_num">02 / STABILITY</div>
+            <h4 class="text-slate-900 font-bold mb-1" data-i18n="eng_card2_title">Deterministic AI Workflows</h4>
+            <p class="text-xs text-slate-600 leading-relaxed" data-i18n="eng_card2_desc">Restricting LLMs to structured data extraction while strictly enforcing critical rules in code.</p>
+          </div>
+          <div class="glass-card p-5 rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div class="text-emerald-600 font-mono text-xs font-bold mb-1" data-i18n="eng_card3_num">03 / SECURITY</div>
+            <h4 class="text-slate-900 font-bold mb-1" data-i18n="eng_card3_title">Secure by Default</h4>
+            <p class="text-xs text-slate-600 leading-relaxed" data-i18n="eng_card3_desc">Enforcing strict authentication, RBAC, input sanitization, and automated secret isolation.</p>
+          </div>
+          <div class="glass-card p-5 rounded-xl border border-slate-200 bg-white shadow-sm">
+            <div class="text-amber-600 font-mono text-xs font-bold mb-1" data-i18n="eng_card4_num">04 / DELIVERY</div>
+            <h4 class="text-slate-900 font-bold mb-1" data-i18n="eng_card4_title">CI/CD &amp; Automated Testing</h4>
+            <p class="text-xs text-slate-600 leading-relaxed" data-i18n="eng_card4_desc">Dockerized local environments, GitHub Actions automated test suites, and zero-downtime deployment pipelines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Matrix -->
+    <section id="skills" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
+      <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+        <h2 class="text-xs font-mono uppercase tracking-widest text-sky-600 font-bold" data-i18n="skills_subtitle">Skills &amp; Technologies</h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-slate-900" data-i18n="skills_title">Full-Stack &amp; AI Ecosystem</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div class="glass-card rounded-xl p-5 border border-slate-200 bg-white shadow-sm space-y-3">
+          <h3 class="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-sky-500"></span> <span data-i18n="cat_backend">Backend &amp; APIs</span>
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="tech-tag">PHP</span>
+            <span class="tech-tag">Laravel</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">REST APIs</span>
+            <span class="tech-tag">Redis</span>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-xl p-5 border border-slate-200 bg-white shadow-sm space-y-3">
+          <h3 class="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-indigo-500"></span> <span data-i18n="cat_frontend">Frontend &amp; UI</span>
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Vue.js</span>
+            <span class="tech-tag">Tailwind</span>
+            <span class="tech-tag">HTML5 / CSS3</span>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-xl p-5 border border-slate-200 bg-white shadow-sm space-y-3">
+          <h3 class="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span> <span data-i18n="cat_ai">AI &amp; Automation</span>
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="tech-tag">LLM APIs</span>
+            <span class="tech-tag">RAG</span>
+            <span class="tech-tag">pgvector</span>
+            <span class="tech-tag">n8n</span>
+            <span class="tech-tag">Webhooks</span>
+            <span class="tech-tag">AI Agents</span>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-xl p-5 border border-slate-200 bg-white shadow-sm space-y-3">
+          <h3 class="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span> <span data-i18n="cat_data">Data &amp; BI</span>
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Power BI</span>
+            <span class="tech-tag">Power Query</span>
+            <span class="tech-tag">DAX</span>
+            <span class="tech-tag">ETL</span>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-xl p-5 border border-slate-200 bg-white shadow-sm space-y-3">
+          <h3 class="text-sm font-bold text-slate-900 flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span> <span data-i18n="cat_cloud">Cloud &amp; DevOps</span>
+          </h3>
+          <div class="flex flex-wrap gap-1.5">
+            <span class="tech-tag">AWS</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">CI/CD</span>
+            <span class="tech-tag">GitHub Actions</span>
+            <span class="tech-tag">Linux</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Verified Certifications -->
+    <section id="certifications" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
+      <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+        <h2 class="text-xs font-mono uppercase tracking-widest text-emerald-600 font-bold" data-i18n="certs_subtitle">Industry Credentials</h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-slate-900" data-i18n="certs_title">Verified Certifications</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Cert 1 -->
+        <div class="glass-card rounded-2xl p-6 border border-slate-200 bg-white hover:border-amber-500 transition-all flex flex-col justify-between shadow-sm">
+          <div class="space-y-4">
+            <div class="w-12 h-12 rounded-xl bg-amber-50 border border-amber-100 text-amber-600 flex items-center justify-center font-bold text-xl">
+              ☁️
+            </div>
+            <div>
+              <span class="text-xs font-mono text-amber-700 font-bold">Amazon Web Services</span>
+              <h3 class="text-lg font-bold text-slate-900 mt-1">AWS Certified Developer</h3>
+              <p class="text-xs font-mono text-slate-500 mt-0.5">Associate Level</p>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed" data-i18n="cert1_desc">
+              Validates deep understanding of core AWS cloud services, serverless deployment, security best practices, and CI/CD pipelines.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 mt-4 flex items-center justify-between text-xs font-mono text-emerald-700 font-bold">
+            <span class="flex items-center gap-1.5"><span>✔</span> <span data-i18n="cert_verified">Verified Credential</span></span>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="glass-card rounded-2xl p-6 border border-slate-200 bg-white hover:border-sky-500 transition-all flex flex-col justify-between shadow-sm">
+          <div class="space-y-4">
+            <div class="w-12 h-12 rounded-xl bg-sky-50 border border-sky-100 text-sky-600 flex items-center justify-center font-bold text-xl">
+              🧠
+            </div>
+            <div>
+              <span class="text-xs font-mono text-sky-700 font-bold">Amazon Web Services</span>
+              <h3 class="text-lg font-bold text-slate-900 mt-1">AWS Certified AI Practitioner</h3>
+              <p class="text-xs font-mono text-slate-500 mt-0.5">Foundational / Practitioner</p>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed" data-i18n="cert2_desc">
+              Demonstrates proficiency in generative AI concepts, foundational models, responsible AI deployment, and enterprise AI architectures.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 mt-4 flex items-center justify-between text-xs font-mono text-emerald-700 font-bold">
+            <span class="flex items-center gap-1.5"><span>✔</span> <span data-i18n="cert_verified">Verified Credential</span></span>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="glass-card rounded-2xl p-6 border border-slate-200 bg-white hover:border-indigo-500 transition-all flex flex-col justify-between shadow-sm">
+          <div class="space-y-4">
+            <div class="w-12 h-12 rounded-xl bg-indigo-50 border border-indigo-100 text-indigo-600 flex items-center justify-center font-bold text-xl">
+              📈
+            </div>
+            <div>
+              <span class="text-xs font-mono text-indigo-700 font-bold">Microsoft</span>
+              <h3 class="text-lg font-bold text-slate-900 mt-1">Microsoft Certified: Power BI Data Analyst</h3>
+              <p class="text-xs font-mono text-slate-500 mt-0.5">Associate Level</p>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed" data-i18n="cert3_desc">
+              Validates expertise in star-schema data modeling, Power Query transformations, DAX business logic, and executive KPI dashboarding.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 mt-4 flex items-center justify-between text-xs font-mono text-emerald-700 font-bold">
+            <span class="flex items-center gap-1.5"><span>✔</span> <span data-i18n="cert_verified">Verified Credential</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Project Scope & Estimator Widget -->
+    <section id="estimator" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
+      <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-200 bg-white relative overflow-hidden shadow-xl">
+        <div class="text-center max-w-xl mx-auto mb-10 space-y-3">
+          <span class="px-3 py-1 rounded-full text-xs font-mono bg-sky-50 text-sky-800 border border-sky-200 font-bold" data-i18n="est_badge">Interactive Client Tool</span>
+          <h2 class="text-3xl font-extrabold text-slate-900" data-i18n="est_title">Project Scope &amp; Inquiry Builder</h2>
+          <p class="text-slate-600 text-sm" data-i18n="est_desc">
+            Select your project requirements to calculate estimated timeline and instantly generate a formatted proposal inquiry.
+          </p>
+        </div>
+
+        <form id="estimatorForm" class="space-y-8">
+          <!-- Step 1: Project Type -->
+          <div>
+            <label class="block text-xs font-mono uppercase text-slate-700 font-bold mb-3" data-i18n="est_step1">1. Select Project Type</label>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+              <label class="estimator-option">
+                <input type="radio" name="projectType" value="saas_mvp" checked>
+                <div class="option-box">
+                  <div class="font-bold text-sm text-slate-900" data-i18n="opt_saas">Full-Stack SaaS</div>
+                  <div class="text-[11px] text-slate-500" data-i18n="opt_saas_desc">MVP / Portal / Web App</div>
+                </div>
+              </label>
+              <label class="estimator-option">
+                <input type="radio" name="projectType" value="ai_rag">
+                <div class="option-box">
+                  <div class="font-bold text-sm text-slate-900" data-i18n="opt_ai">AI &amp; RAG System</div>
+                  <div class="text-[11px] text-slate-500" data-i18n="opt_ai_desc">Doc Search / Assistant</div>
+                </div>
+              </label>
+              <label class="estimator-option">
+                <input type="radio" name="projectType" value="workflow_automation">
+                <div class="option-box">
+                  <div class="font-bold text-sm text-slate-900" data-i18n="opt_auto">Workflow Auto</div>
+                  <div class="text-[11px] text-slate-500" data-i18n="opt_auto_desc">n8n / Webhooks / APIs</div>
+                </div>
+              </label>
+              <label class="estimator-option">
+                <input type="radio" name="projectType" value="bi_pipeline">
+                <div class="option-box">
+                  <div class="font-bold text-sm text-slate-900" data-i18n="opt_bi">Power BI &amp; Data</div>
+                  <div class="text-[11px] text-slate-500" data-i18n="opt_bi_desc">ETL / KPI Dashboards</div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Step 2: Key Features Needed -->
+          <div>
+            <label class="block text-xs font-mono uppercase text-slate-700 font-bold mb-3" data-i18n="est_step2">2. Add Add-on Modules</label>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <label class="estimator-checkbox">
+                <input type="checkbox" name="addons" value="billing" checked>
+                <div class="checkbox-box">
+                  <span class="text-sm text-slate-900 font-medium" data-i18n="addon_billing">Stripe / Billing</span>
+                  <span class="text-[11px] font-mono text-sky-700 font-bold" data-i18n="addon_billing_time">+1 week</span>
+                </div>
+              </label>
+              <label class="estimator-checkbox">
+                <input type="checkbox" name="addons" value="ai_llm" checked>
+                <div class="checkbox-box">
+                  <span class="text-sm text-slate-900 font-medium" data-i18n="addon_ai">LLM / AI Integration</span>
+                  <span class="text-[11px] font-mono text-sky-700 font-bold" data-i18n="addon_ai_time">+1-2 weeks</span>
+                </div>
+              </label>
+              <label class="estimator-checkbox">
+                <input type="checkbox" name="addons" value="devops">
+                <div class="checkbox-box">
+                  <span class="text-sm text-slate-900 font-medium" data-i18n="addon_devops">Docker &amp; AWS CI/CD</span>
+                  <span class="text-[11px] font-mono text-sky-700 font-bold" data-i18n="addon_devops_time">+3-5 days</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Calculation Summary Box -->
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <div class="text-xs font-mono text-slate-500 font-medium" data-i18n="est_summary_lbl">Estimated Delivery Timeframe</div>
+              <div class="text-2xl sm:text-3xl font-extrabold text-sky-700 font-mono mt-1" id="estimatedTime">2 - 4 Weeks</div>
+              <div class="text-xs text-slate-500 mt-1" data-i18n="est_summary_sub">Includes architecture, development, testing, and deployment.</div>
+            </div>
+
+            <div class="flex items-center gap-3 w-full md:w-auto">
+              <button type="button" id="generateInquiryBtn" class="btn-primary w-full md:w-auto px-6 py-3.5 rounded-xl font-bold text-white bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-500 hover:to-indigo-500 shadow-md shadow-sky-500/20 transition-all flex items-center justify-center gap-2">
+                <span data-i18n="btn_gen_inquiry">Generate Inquiry Draft</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact & Freelancer Availability Section -->
+    <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-200">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-5 space-y-6">
+          <span class="px-3 py-1 rounded-full text-xs font-mono bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold" data-i18n="contact_badge">Let's Connect</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900" data-i18n="contact_title">Have a Project in Mind?</h2>
+          <p class="text-slate-600 leading-relaxed text-sm sm:text-base" data-i18n="contact_desc">
+            I am actively accepting select freelance contracts, technical consulting, and development projects. Reach out via email, Upwork, or LinkedIn.
+          </p>
+
+          <div class="space-y-3 pt-2">
+            <div class="flex items-center gap-3 text-slate-700 text-sm">
+              <div class="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-sky-600 shadow-sm">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <span class="text-xs font-mono text-slate-500 block" data-i18n="contact_email_lbl">Direct Email</span>
+                <span class="font-bold text-slate-900">t2adung@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 text-slate-700 text-sm">
+              <div class="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-emerald-600 shadow-sm">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-3.715 0-6.431 2.671-7.184 6.532-1.331-1.92-2.384-4.791-2.907-7.55H4.118v9.98c0 2.508 2.04 4.549 4.548 4.549 2.51 0 4.55-2.041 4.55-4.549V9.75c.67.904 1.545 1.761 2.613 2.456l-2.04 9.794h4.417l1.372-6.586c1.1.583 2.316.907 3.583.907 3.992 0 7.241-3.249 7.241-7.241 0-3.993-3.249-7.242-7.241-7.242z"/></svg>
+              </div>
+              <div>
+                <span class="text-xs font-mono text-slate-500 block" data-i18n="contact_upwork_lbl">Upwork Verified Profile</span>
+                <a href="https://www.upwork.com/freelancers/~01864e5cfb730b1803" target="_blank" rel="noopener noreferrer" class="font-bold text-sky-600 hover:underline">Joy Tran on Upwork</a>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3 text-slate-700 text-sm">
+              <div class="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-indigo-600 shadow-sm">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.738-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div>
+                <span class="text-xs font-mono text-slate-500 block">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/t2adung" target="_blank" rel="noopener noreferrer" class="font-bold text-sky-600 hover:underline">linkedin.com/in/t2adung</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="lg:col-span-7">
+          <div class="glass-card rounded-2xl p-6 sm:p-8 border border-slate-200 bg-white shadow-xl">
+            <h3 class="text-xl font-bold text-slate-900 mb-4" data-i18n="form_title">Send a Direct Message</h3>
+            <form id="contactForm" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="senderName" class="block text-xs font-mono text-slate-700 font-bold mb-1" data-i18n="form_name">Your Name</label>
+                  <input type="text" id="senderName" required placeholder="Jane Doe" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:border-sky-500 focus:bg-white focus:outline-none transition-colors">
+                </div>
+                <div>
+                  <label for="senderEmail" class="block text-xs font-mono text-slate-700 font-bold mb-1" data-i18n="form_email">Your Email</label>
+                  <input type="email" id="senderEmail" required placeholder="jane@company.com" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:border-sky-500 focus:bg-white focus:outline-none transition-colors">
+                </div>
+              </div>
+
+              <div>
+                <label for="subject" class="block text-xs font-mono text-slate-700 font-bold mb-1" data-i18n="form_subject">Subject / Project Scope</label>
+                <input type="text" id="subject" required placeholder="Project: AI SaaS MVP Development" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:border-sky-500 focus:bg-white focus:outline-none transition-colors">
+              </div>
+
+              <div>
+                <label for="message" class="block text-xs font-mono text-slate-700 font-bold mb-1" data-i18n="form_message">Message</label>
+                <textarea id="message" rows="4" required placeholder="Describe your timeline, goals, and core requirements..." class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:border-sky-500 focus:bg-white focus:outline-none transition-colors"></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary w-full py-3.5 rounded-xl font-bold text-white bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-500 hover:to-indigo-500 shadow-md shadow-sky-500/20 transition-all flex items-center justify-center gap-2">
+                <span data-i18n="btn_send">Send Message via Email</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 bg-white relative z-10 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <span class="w-8 h-8 rounded-lg bg-gradient-to-br from-sky-500 to-indigo-600 flex items-center justify-center text-white text-xs font-bold shadow-sm">
+          JT
+        </span>
+        <span class="text-sm text-slate-600" data-i18n="footer_copy">© 2026 Joy Tran (t2adung). All rights reserved.</span>
+      </div>
+
+      <div class="flex items-center gap-6 text-sm font-mono text-slate-600">
+        <a href="https://github.com/t2adung" target="_blank" rel="noopener noreferrer" class="hover:text-sky-600 transition-colors">GitHub</a>
+        <a href="https://www.linkedin.com/in/t2adung" target="_blank" rel="noopener noreferrer" class="hover:text-sky-600 transition-colors">LinkedIn</a>
+        <a href="https://www.upwork.com/freelancers/~01864e5cfb730b1803" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-600 transition-colors">Upwork</a>
+        <a href="#hero" class="hover:text-slate-900 transition-colors font-bold" data-i18n="footer_top">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Deep Dive Case Study Modal Backdrop & Container -->
+  <div id="caseStudyModal" class="fixed inset-0 z-50 hidden bg-slate-900/30 backdrop-blur-sm overflow-y-auto p-4 sm:p-6 md:p-10 flex items-center justify-center">
+    <div class="glass-card max-w-4xl w-full rounded-3xl border border-slate-200 bg-white shadow-2xl overflow-hidden relative my-auto animate-modal">
+      <!-- Modal Header -->
+      <div class="p-6 sm:p-8 border-b border-slate-100 flex items-start justify-between gap-4 bg-slate-50">
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <span id="modalCategory" class="px-2.5 py-0.5 rounded text-xs font-mono font-bold bg-sky-100 text-sky-800 border border-sky-200">Category</span>
+            <span id="modalStatus" class="px-2 py-0.5 rounded text-xs font-mono font-bold bg-emerald-100 text-emerald-800">Production Ready</span>
+          </div>
+          <h2 id="modalTitle" class="text-2xl sm:text-3xl font-extrabold text-slate-900">Project Title</h2>
+          <p id="modalSubtitle" class="text-sm font-mono text-slate-600 mt-1">Subtitle</p>
+        </div>
+        <button id="closeModalBtn" class="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 transition-colors" aria-label="Close modal">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Modal Content Body -->
+      <div class="p-6 sm:p-8 space-y-6 max-h-[70vh] overflow-y-auto custom-scrollbar" id="modalBody">
+        <!-- Injected via app.js -->
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-6 border-t border-slate-100 bg-slate-50 flex flex-wrap items-center justify-between gap-4">
+        <div class="text-xs font-mono text-slate-600">
+          <span data-i18n="modal_repo_lbl">Repository Folder</span>: <span id="modalRepoPath" class="text-sky-700 font-bold">./ai-powered-saas</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <button id="closeModalBtn2" class="px-5 py-2 rounded-xl text-xs font-semibold text-slate-700 bg-slate-200 hover:bg-slate-300 transition-colors" data-i18n="modal_close">
+            Close
+          </button>
+          <a href="#contact" id="modalInquireBtn" class="px-5 py-2 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-500 hover:to-indigo-500 transition-colors shadow-sm" data-i18n="modal_discuss">
+            Discuss Similar Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification (Light Theme) -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 hidden bg-white border border-sky-300 shadow-2xl text-slate-900 px-5 py-3 rounded-xl font-mono text-xs flex items-center gap-2 transition-all">
+    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+    <span id="toastMessage" class="font-semibold">Email copied to clipboard!</span>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
