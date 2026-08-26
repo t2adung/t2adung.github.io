@@ -193,13 +193,13 @@ const i18n = {
   },
 
   vi: {
-    nav_services: "Dịch Vụ",
-    nav_projects: "Dự Án Thực Tế",
-    nav_skills: "Kỹ Năng & Công Nghệ",
-    nav_certifications: "Chứng Chỉ Quốc Tế",
-    nav_estimator: "Ước Tính Dự Án",
-    btn_upwork: "Hồ Sơ Upwork",
-    btn_contact: "Liên Hệ Tôi",
+    nav_services: "Dịch vụ",
+    nav_projects: "Dự án",
+    nav_skills: "Kỹ năng",
+    nav_certifications: "Chứng chỉ",
+    nav_estimator: "Dự toán",
+    btn_upwork: "Upwork",
+    btn_contact: "Liên hệ",
 
     hero_badge: "SẴN SÀNG NHẬN DỰ ÁN & HỢP ĐỒNG FREELANCE",
     hero_title_raw: `Kỹ Thuật Xây Dựng <span class="text-gradient">SaaS Vận Hành Thực Tế</span>, AI Tự Động Hóa &amp; Dữ Liệu.`,
